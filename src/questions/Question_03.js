@@ -26,7 +26,17 @@ export default function Question_03() {
       <h1 className='question-title'>【問３】コンポーネント呼出し</h1>
       <div className='question-content'>
       {/* ↓↓↓ コンポーネント呼び出しを書く ↓↓↓ */}
+      import React, { Component } from 'react';
 
+class Aisatsu extends React.Component {
+    render() {
+      return (
+        <h1>{this.props.greet}</h1>
+      );
+    }
+  }
+
+export default Aisatsu;
       {/* ↑↑↑ コンポーネント呼び出しを書く ↑↑↑ */}
       </div>
       <h1 className='question-title'>期待結果 (画像)</h1>

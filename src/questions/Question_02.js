@@ -20,14 +20,14 @@ export default function Question_02() {
 
   // 定数群
   const kyusyu = [
-    { "name" : "福岡県", "population" : 5135214 },
-    { "name" : "佐賀県", "population" : 811442 },
-    { "name" : "長崎県", "population" : 1312317 },
-    { "name" : "熊本県", "population" : 1738301 },
-    { "name" : "大分県", "population" : 1123852 },
-    { "name" : "宮崎県", "population" : 1069576 },
-    { "name" : "鹿児島県", "population" : 1588256 },
-    { "name" : "沖縄県", "population" : 1467480 }
+    {id: 1, "name" : "福岡県", "population" : 5135214 },
+    {id: 2, "name" : "佐賀県", "population" : 811442 },
+    {id: 3, "name" : "長崎県", "population" : 1312317 },
+    {id: 4, "name" : "熊本県", "population" : 1738301 },
+    {id: 5, "name" : "大分県", "population" : 1123852 },
+    {id: 6, "name" : "宮崎県", "population" : 1069576 },
+    {id: 7, "name" : "鹿児島県", "population" : 1588256 },
+    {id: 8, "name" : "沖縄県", "population" : 1467480 }
   ];
 
   const result = kyusyu.map((el, index) => {
